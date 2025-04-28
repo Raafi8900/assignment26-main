@@ -11,7 +11,7 @@ dotenv.config()
 const app = express()
 const allowedOrigins = [
         'http://localhost:5173',
-        'https://event-management-three-chi.vercel.app/'
+        'https://event-management-three-chi.vercel.app'
     ]
     // Middleware
 app.use(cors({
