@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import EventCard from '../components/EventCard'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 
 const CategoryDetail = () => {
   const { id } = useParams() // id = category name

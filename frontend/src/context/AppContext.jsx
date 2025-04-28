@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const AppContext = createContext();
 
 export const AppContextProvider = (props) => {
-    const backendUrl = "http://localhost:5000"
+    const backendUrl = "ostad-blush.vercel.app"
 
     const [events, setEvents] = useState([])
     const [loading, setLoading] = useState()

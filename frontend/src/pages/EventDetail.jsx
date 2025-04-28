@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 import { toast } from 'react-toastify'
 
 const EventDetail = () => {

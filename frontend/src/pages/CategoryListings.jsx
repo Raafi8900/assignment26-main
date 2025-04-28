@@ -1,7 +1,7 @@
 import React from 'react'
 import CategoryCard from '../components/CategoryCard'
 import { useContext } from 'react'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 
 const categoryIcons = {
   Music: '🎵',

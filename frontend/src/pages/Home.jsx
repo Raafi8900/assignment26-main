@@ -2,7 +2,7 @@ import Banner from '../components/Banner'
 import EventCard from '../components/EventCard'
 import CategoryCard from '../components/CategoryCard'
 import { useContext } from 'react'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 
 export default function Home() {
   const { events } = useContext(AppContext)
