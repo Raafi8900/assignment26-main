@@ -42,7 +42,7 @@ const CategoryListings = () => {
     return {
       id: index + 1,
       name: properCaseName,
-      icon: categoryIcons[properCaseName] || '📌',
+      icon: categoryIcons[properCaseName] || '🔍',
       eventCount: data.count
     }
   })

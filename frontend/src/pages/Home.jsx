@@ -7,14 +7,14 @@ import { AppContext } from '../context/AppContext'
 export default function Home() {
   const { events } = useContext(AppContext)
   const categoryIcons = {
-    Music: '🎵',
-    Sports: '⚽',
-    Arts: '🎨',
-    Food: '🍽️',
-    Technology: '💻',
+    Music: '🎶',
+    Sports: '🤾‍♀️',
+    Arts: '🎉',
+    Food: '🍔',
+    Technology: '🖥️',
     Business: '💼',
     Education: '📚',
-    Entertainment: '🎭',
+    Entertainment: '🕺',
   }
 
   // Convert events object to array
@@ -42,11 +42,12 @@ export default function Home() {
 
   return (
     <div>
-      <Banner
-        title="Discover Amazing Events"
-        subtitle="Find and book tickets for the best events in your area"
-        backgroundImage="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-      />
+   <Banner
+  title="Entertaiment Events"
+  subtitle="Find and book tickets for the best events in your area"
+  backgroundImage="https://images.unsplash.com/photo-1472653431158-6364773b2a56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGV2ZW50fGVufDB8fDB8fHww"
+/>
+
 
       {/* Categories Section */}
       <section className="py-16 bg-gray-50">

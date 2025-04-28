@@ -1,67 +1,52 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-12">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-teal-600 text-white py-12">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Event Platform</h3>
-            <p className="text-gray-400">
-              Discover and book tickets for the best events in your area.
+            <h3 className="text-2xl font-bold mb-4">Eventify</h3>
+            <p className="text-sm text-indigo-100">
+              Discover events, meet people, and live amazing experiences with Eventify.
             </p>
           </div>
+
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
+            <h4 className="text-xl font-semibold mb-4">Explore</h4>
+            <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white">
-                  Home
-                </Link>
+                <Link to="/" className="hover:text-yellow-300">Home</Link>
               </li>
               <li>
-                <Link to="/events" className="text-gray-400 hover:text-white">
-                  Events
-                </Link>
+                <Link to="/events" className="hover:text-yellow-300">All Events</Link>
               </li>
               <li>
-                <Link to="/categories" className="text-gray-400 hover:text-white">
-                  Categories
-                </Link>
+                <Link to="/categories" className="hover:text-yellow-300">Categories</Link>
+              </li>
+              <li>
+                <Link to="/about" className="hover:text-yellow-300">About Us</Link>
               </li>
             </ul>
           </div>
+
           <div>
-            <h4 className="text-lg font-semibold mb-4">Account</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/login" className="text-gray-400 hover:text-white">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link to="/dashboard" className="text-gray-400 hover:text-white">
-                  Dashboard
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>Email: support@eventplatform.com</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Address: 123 Event Street, City, Country</li>
+            <h4 className="text-xl font-semibold mb-4">Connect</h4>
+            <ul className="space-y-3 text-indigo-100">
+              <li>Email: hello@eventify.com</li>
+              <li>Phone: +1 (800) 987-6543</li>
+              <li>Location: 456 Unity Plaza, Metropolis</li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Event Platform. All rights reserved.</p>
+
+        <div className="mt-10 border-t border-indigo-400 pt-6 text-center text-sm text-indigo-100">
+          <p>© 2025 Eventify. Crafted with ❤️ for event lovers worldwide.</p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="text-3xl font-bold text-green-600">
-            Event Platform
+            Event Management
           </Link>
 
           {/* Desktop Menu */}
